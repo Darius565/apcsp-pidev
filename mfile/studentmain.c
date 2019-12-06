@@ -14,10 +14,10 @@ int main()
 	{
 		printf("What is student's first name?\n");
 		fgets(input, 256,stdin);
-		sscanf(input, "%s", &studentA[i].firstName);
+		sscanf(input, "%s", studentA[i].firstName);
 		printf("What is student's last name?\n");
 		fgets(input, 256, stdin);
-		sscanf(input, "%s", &studentA[i].lastName);
+		sscanf(input, "%s", studentA[i].lastName);
 		printf("What is student's age?\n");
 		fgets(input, 256, stdin);
 		sscanf(input, "%d", &studentA[i].age);
