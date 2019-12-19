@@ -8,7 +8,7 @@ int main()
   int d = 3;
   int e = 4;
   int f = 5;
-  int g = 6;
+  int g = 7;
 
   // if statement to test is a is equal to 0
   if (a == 0)
