@@ -22,16 +22,23 @@ int main()
 
   printf("The value of ptrtoa is %d\n", ptrtoa);
   printf("It stores the value %d\n", *ptrtoa);
-  printf("The address of a is %d\n", &a);
+  printf("The address of a is %d\n\n\n\n\n\n\n", &a);
 
   e = 10;
   d = 5;
+  
   printf("The value of d is %f\n", d);
   printf("The address of d is %f\n", &d);
   printf("The value of e is %f\n", e);
   printf("The address of e is %f\n", &e);
-  printf("The new value of d is %f\n", *ptrtoe);
-  printf("The new value of e is %f\n", *ptrtod);
+  float temp;
+  temp = *ptrtoe;
+  *ptrtoe = *ptrtod;
+  *ptrtod = temp;
+
+  printf("The new value of d is %f\n", d);
+ 
+  printf("The new value of e is %f\n", e);
 
 
 
