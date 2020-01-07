@@ -5,10 +5,10 @@ int main()
 
   int a;
   int* ptrtoa;
-  int d;
-  int* ptrtod;
-  int e;
-  int* ptrtoe;
+  float d;
+  float* ptrtod;
+  float e;
+  float* ptrtoe;
 
   ptrtoa = &a;
   ptrtod = &d;
@@ -26,13 +26,13 @@ int main()
 
   e = 10;
   d = 5;
-  printf("The value of d is %d\n", d);
-  printf("The address of d is %d\n", &d);
-  printf("The value of e is %d\n", e);
-  printf("The address of e is %d\n", &e);
+  printf("The value of d is %f\n", d);
+  printf("The address of d is %f\n", &d);
+  printf("The value of e is %f\n", e);
+  printf("The address of e is %f\n", &e);
+  printf("The new value of d is %f\n", );
+  printf("The new value of e is %f\n", );
 
-  printf("The new value of d is %d\n",  );
-  printf("The new value of e is %d\n",  );
 
 
 }
