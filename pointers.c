@@ -30,8 +30,8 @@ int main()
   printf("The address of d is %f\n", &d);
   printf("The value of e is %f\n", e);
   printf("The address of e is %f\n", &e);
-  printf("The new value of d is %f\n", );
-  printf("The new value of e is %f\n", );
+  printf("The new value of d is %f\n", *ptrtoe);
+  printf("The new value of e is %f\n", *ptrtod);
 
 
 
