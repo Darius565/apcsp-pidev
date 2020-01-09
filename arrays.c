@@ -2,16 +2,17 @@
 
 int arrayAdd(int* arr, int s, int n)
 {
-	for (int i = 0; i < s; i++);
+	for (int i = 0; i < s; i++)
 	{
-		arr[i] = arr[i] + n;
+		arr[i] = arr[i] + n; 
 		printf("%d\n", arr[i]);
 	}
 }
+
 int main()
 {
 	int arr[100];
-	for (int i = 0; i < 100; i++);
+	for (int i = 0; i < 100; i++)
 	{
 		arr[i] = i * i;
 	}
