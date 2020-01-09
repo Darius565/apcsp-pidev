@@ -1,18 +1,19 @@
 #include <stdio.h>
 
-int arrayAdd(int arr[], int s, int n)
+int arrayAdd(int* arr, int s, int n)
 {
-	s = 99;
-	
+	for (int i = 0; i < s; i++);
+	{
+		arr[i] = arr[i] + n;
+		printf("%d\n", arr[i]);
+	}
 }
 int main()
-
 {
-
-	for (int i = 1; i <= 100; i++);
+	int arr[100];
+	for (int i = 0; i < 100; i++);
 	{
-		arrayAdd(i, s, n);
+		arr[i] = i * i;
 	}
-
-
+	arrayAdd(arr, 100, 1);
 }
