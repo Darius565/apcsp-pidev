@@ -16,12 +16,12 @@ void printStudent(struct Student* student)
 int main()
 {
 	char input[50];
-	int answer;
-	printf("How many students?\n");
+	int howmanystudents;
+	printf("How many students do you want?\n");
 	fgets(input, 256, stdin);
-	sscanf(input, "%d", &answer);
-	struct Student studentA[answer];
-	for (int i = 0; i<answer; i++)
+	sscanf(input, "%d", &howmanystudents);
+	struct Student studentA[howmanystudents];
+	for (int i = 0; i < howmanystudents; i++)
 	{
 		printf("What is your first name?\n");
 		fgets(input, 256,stdin);
@@ -36,7 +36,7 @@ int main()
 		fgets(input, 256, stdin);
 		sscanf(input, "%d", &studentA[i].studentid);
 	}
-	for (int i = 0; i<answer; i++)
+	for (int i = 0; i < howmanystudents; i++)
 	{
 		printStudent(&studentA[i]);
 	}
