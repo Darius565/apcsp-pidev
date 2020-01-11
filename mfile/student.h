@@ -1,5 +1,5 @@
 #include "student.c"
-#include <stdio.h>
+
 
 struct Student {
 	char firstName[50];
