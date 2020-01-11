@@ -12,16 +12,16 @@ int main()
 	struct Student studentA[howmanystudents];
 	for (int i = 0; i < howmanystudents; i++)
 	{
-		printf("What is your first name?\n");
+		printf("What is student's first name?\n");
 		fgets(input, 256,stdin);
 		sscanf(input, "%s", &studentA[i].firstName);
-		printf("What is your last name?\n");
+		printf("What is student's last name?\n");
 		fgets(input, 256, stdin);
 		sscanf(input, "%s", &studentA[i].lastName);
-		printf("What is your age?\n");
+		printf("What is student's age?\n");
 		fgets(input, 256, stdin);
 		sscanf(input, "%d", &studentA[i].age);
-		printf("What is your student ID number\n");
+		printf("What is student's ID number\n");
 		fgets(input, 256, stdin);
 		sscanf(input, "%d", &studentA[i].studentid);
 	}
