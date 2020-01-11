@@ -1,12 +1,4 @@
 #include <stdio.h>
-#include "student.h"
-
-int main()
-{
-<<<<<<< HEAD
-	
-=======
-	#include <stdio.h>
 #include <string.h>
 
 struct Student {
@@ -31,23 +23,22 @@ int main()
 	struct Student studentA[answer];
 	for (int i = 0; i<answer; i++)
 	{
-	printf("What is your first name?\n");
-	fgets(input, 256,stdin);
-	sscanf(input, "%s", &studentA[i].firstname);
-	printf("What is your last name?\n");
-	fgets(input, 256, stdin);
-	sscanf(input, "%s", &studentA[i].lastname);
-	printf("What is your age?\n");
-	fgets(input, 256, stdin);
-	sscanf(input, "%d", &studentA[i].age);
-	printf("What is your student ID number\n");
-	fgets(input, 256, stdin);
-	sscanf(input, "%d", &studentA[i].studentid);
+		printf("What is your first name?\n");
+		fgets(input, 256,stdin);
+		sscanf(input, "%s", &studentA[i].firstname);
+		printf("What is your last name?\n");
+		fgets(input, 256, stdin);
+		sscanf(input, "%s", &studentA[i].lastname);
+		printf("What is your age?\n");
+		fgets(input, 256, stdin);
+		sscanf(input, "%d", &studentA[i].age);
+		printf("What is your student ID number\n");
+		fgets(input, 256, stdin);
+		sscanf(input, "%d", &studentA[i].studentid);
 	}
 	for (int i = 0; i<answer; i++)
 	{
-	printStudent(&studentA[i]);
+		printStudent(&studentA[i]);
 	}
 }
->>>>>>> 8bf43ac184bb22653892fc8a9dc851f25926c322
-}
+
