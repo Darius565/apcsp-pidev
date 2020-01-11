@@ -17,22 +17,22 @@ int main()
 {
 	char input[50];
 	int answer;
-	printf("How many students?\n");
+	printf("How many students are you entering?\n");
 	fgets(input, 256, stdin);
 	sscanf(input, "%d", &answer);
 	struct Student studentA[answer];
 	for (int i = 0; i<answer; i++)
 	{
-	printf("What is your first name?\n");
+	printf("What is student's first name?\n");
 	fgets(input, 256,stdin);
 	sscanf(input, "%s", &studentA[i].firstname);
-	printf("What is your last name?\n");
+	printf("What is student's last name?\n");
 	fgets(input, 256, stdin);
 	sscanf(input, "%s", &studentA[i].lastname);
-	printf("What is your age?\n");
+	printf("What is student's age?\n");
 	fgets(input, 256, stdin);
 	sscanf(input, "%d", &studentA[i].age);
-	printf("What is your student ID number\n");
+	printf("What is student's ID number\n");
 	fgets(input, 256, stdin);
 	sscanf(input, "%d", &studentA[i].studentid);
 	}
