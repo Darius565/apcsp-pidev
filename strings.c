@@ -5,8 +5,8 @@
 int main()
 {
 	char string1[] = "abcdefghijklmnopqrstuvwxyz";
-	char string2[27];
-	char string3[100];
+	char string2[26];
+	char string3[52];
   for(int i = 0; i < 26; i++)
 	{
 	string2[i] = 'a' + i;
