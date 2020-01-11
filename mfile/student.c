@@ -3,7 +3,5 @@
 
 void printStudent(struct Student* student)
 {
-	printf("The student's full name is %s %s\n", student->firstName, student->lastName);
-	printf("The student's age is %d\n", student->age);
-	printf("The student's ID number is %d\n", student->studentid);
+	printf("The student's name is %s %s\nThe student's age is %d\nThe student's ID number is %d\n", student->firstname, student->lastname, student->age, student->studentid);
 }
